@@ -1,0 +1,7 @@
+//AOS FIX DUE TO SLICK CAROUSEL
+jQuery(window).on('load', function () {
+    AOS.refresh();
+});
+jQuery(function () {
+    AOS.init();
+});
